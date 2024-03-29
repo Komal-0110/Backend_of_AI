@@ -1,0 +1,7 @@
+flask
+python-dotenv
+psycopg2-binary
+pymongo
+flask_wtf
+flask_bcrypt
+python-jose
