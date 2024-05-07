@@ -24,6 +24,7 @@ class LoginUser(Resource):
                     "_id": user_id,
                     "username": existing_user_by_email["username"],
                     "email": existing_user_by_email["email"],
+                    # "image": existing_user_by_email["image"],
                 }), 201)
                 response.set_cookie('Authorization', 'Bearer ' + res, httponly=True, secure=True)
 

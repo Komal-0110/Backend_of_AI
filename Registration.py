@@ -12,6 +12,7 @@ class registration(Resource):
         username = data.get('username')
         email = data.get('email')
         password = data.get('password')
+        # image = data.get('image')
 
         if not username or not email or not password:
             return {"error": "Please fill all the inputs."}, 400

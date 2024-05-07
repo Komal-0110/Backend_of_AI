@@ -1,5 +1,5 @@
-_pycache_
+__pycache__/
 .FYP
 .env
 .flaskenv
-/*_pycache_
+/*__pycache__/

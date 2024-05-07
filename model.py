@@ -13,6 +13,7 @@ class UserModel:
         self.username = username
         self.email = email
         self.password = password
+        # self.image = image
         
     def json(self) -> dict:
         return {'username': self.username, 'email': self.email, 'password': self.password}
